@@ -1,0 +1,118 @@
+body{
+  min-height: 100vh;
+  background: url("../assets/1.png") center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.horizontalLine{
+  width: 100%;
+}
+
+.notesPageContainer,
+.notesPageItem {
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #1A1A1A;
+}
+
+.notesPageItemFirst{
+  background-color: #000;
+  padding-top: 20px;
+}
+
+.notesPageItemFirstEmail{
+  color: #fff !important;
+  font-size: 14px;
+  text-align: left;
+}
+
+.notesPageItemFirstBlock{
+  margin-bottom: 20px !important;
+}
+
+.notesPageItemSecond{
+  background-color: #1A1A1A;
+  border-right: 1px solid #000;
+}
+
+.notesPageItemFirstCreateButton{
+  width: 90% !important;
+  margin-left: 7px !important;
+}
+
+.notesPageItemSecondTitle{
+  height: 50px;
+  padding-top: 20px !important;
+  padding-left: 10px !important;
+}
+
+.notesPageItemSecondTitleIcon{
+  color: #fff;
+  width: 100px;
+}
+
+.notesPageItemSecondTitleText{
+  color: #fff;
+}
+
+.notesPageItemSecondInfo{
+  color: #fff;
+  height: 60px !important;
+  width: 100% !important;
+  padding-top: 30px !important;
+  padding-left: 20px !important;
+  padding-bottom: 20px !important;
+  border-bottom: 1px solid #262626;
+}
+
+.notesPageItemSecondList{
+  height: 650px !important;
+  width: 100% !important;
+}
+
+.notesPageItemSecondListWithBlocks{
+  width: 100% !important;
+  height: 2000px !important;
+  overflow-x: hidden;
+  overflow-y: auto !important;
+  padding-top: 20px;
+}
+
+.notesPageItemSecondListWithBlocksItem{
+  width: 100% !important;
+  height: 150px !important;
+  background-color: #262626;
+  border-bottom: 1px solid #737373;
+  cursor: pointer;
+  transition: all .5s linear !important;
+  margin-bottom: 10px !important;
+  clear: both;
+}
+
+.notesPageItemSecondListWithBlocksItemTitle{
+  color: #fff;
+  width: 80%;
+  padding-left: 10px;
+}
+
+.notesPageItemSecondListWithBlocksItemTitleButton{
+  opacity: 0 !important;
+  transition: all .5s linear !important;
+}
+
+.notesPageItemSecondListWithBlocksItem:hover .notesPageItemSecondListWithBlocksItemTitleButton {
+  opacity: 1 !important;
+}
+
+.notesPageItemSecondListWithBlocksItemTime{
+  color: #fff;
+  font-size: 14px;
+  padding-left: 25px !important;
+  padding-top: 30px !important;
+}
+
+.notesPageItemThird{
+  background-color: #1A1A1A;
+  
+}
